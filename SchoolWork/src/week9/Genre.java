@@ -1,3 +1,5 @@
+package week9;
+
 public enum Genre {
         POP,
         ROCK,

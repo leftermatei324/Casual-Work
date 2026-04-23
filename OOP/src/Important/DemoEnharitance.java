@@ -1,3 +1,5 @@
+package Important;
+
 class Student{
     String nume;
     int nota;
@@ -17,7 +19,7 @@ class Student{
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "Important.Student{" +
                 "nume='" + nume + '\'' +
                 ", nota=" + nota +
                 '}';
@@ -61,7 +63,7 @@ class Patrat extends Forma{
 
     @Override
     public String toString() {
-        return "Patrat " +
+        return "Important.Patrat " +
                 "diametru=" + diametru +
                 ", latura=" + latura +
                 ", nume='" + nume + '\'';

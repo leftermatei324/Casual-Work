@@ -1,3 +1,5 @@
+package week9;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -68,7 +70,7 @@ public class Song extends ArrayList {
 
     @Override
     public String toString() {
-        return "Song{" +
+        return "week9.Song{" +
                 "title='" + title + '\'' +
                 ", artist='" + artist + '\'' +
                 ", year=" + year +
