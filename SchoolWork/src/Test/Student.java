@@ -40,9 +40,10 @@ public class Student implements Cloneable, Comparable<Student>, Serializable {
 
     @Override
     public boolean equals(Object o) {
-        if (o == null || getClass() != o.getClass()) return false;
-        Student student = (Student) o;
-        return id == student.id && grade == student.grade && Objects.equals(name, student.name);
+        if (this == o) return true;
+        if (!(o instanceof Student)) return false;
+        Student s = (Student) o;
+        return this.id == s.id;
     }
 
     @Override

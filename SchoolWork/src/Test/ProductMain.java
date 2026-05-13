@@ -13,7 +13,7 @@ public class ProductMain {
         products.add(new Product(3,"D",70));
         products.add(new Product(2,"E",30)); // duplicate id
 
-        // 2) Sort by id (Comparable)
+        // 2) Sort by price  (Comparable)
         Collections.sort(products);
         System.out.println("Sorted by id:");
         System.out.println(products);
